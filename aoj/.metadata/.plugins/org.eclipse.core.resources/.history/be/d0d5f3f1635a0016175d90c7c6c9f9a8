@@ -1,0 +1,35 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+public class Main {
+	int cheese;
+	ArrayList<Integer> stack = new ArrayList<Integer>();
+	static final char NEST = 'S';
+	static final char OBSTACLE = 'X';
+	static final char VACANT = '.';
+	void run(){
+		Scanner scan = new Scanner(System.in);
+		int H,W,N;
+		H = scan.nextInt();
+		W = scan.nextInt();
+		N = scan.nextInt();
+		char map[][] = new char[H][W];
+
+
+	}
+
+	int eat(){
+
+		return 0;
+	}
+
+	public static void main(String args[]){
+		new Main().run();
+	}
+}
+
+/*
+巣:S
+障害物:X
+空き地:.
+チーズ工場:1,2,3,...,9
+*/

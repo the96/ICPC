@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Main {
+	void run(){
+		Scanner scan = new Scanner(System.in);
+		int H,W,N;
+		char map[][] = new char[H][W];
+	}
+
+	public static void main(String args[]){
+		new Main().run();
+	}
+}

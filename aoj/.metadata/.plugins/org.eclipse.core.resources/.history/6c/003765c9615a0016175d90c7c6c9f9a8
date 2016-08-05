@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Main {
+	static final char NEST = 'S';
+	static final char OBSTACLE = 'X';
+	static final char VACANT = '.';
+	int CHEESE;
+	void run(){
+		Scanner scan = new Scanner(System.in);
+		int H,W,N;
+		H = scan.nextInt();
+		W = scan.nextInt();
+		char map[][] = new char[H][W];
+	}
+
+	public static void main(String args[]){
+		new Main().run();
+	}
+}
+
+/*
+巣:S
+障害物:X
+空き地:.
+チーズ工場:1,2,3,...,9
+*/
