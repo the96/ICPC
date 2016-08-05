@@ -1,0 +1,47 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+public class Main {
+	int cheese;
+	ArrayList<Integer> stack = new ArrayList<Integer>();
+	static final char START = 'S';//巣（スタート地点）
+	static final char BLOCK = 'X';//障害物
+	static final char SPACE = '.';//空き地
+	void run(){
+		Scanner scan = new Scanner(System.in);
+		int h,w,n;
+		h = scan.nextInt();//高さ(1 <= h <= 1000)
+		w = scan.nextInt();//幅(1 <= w <= 1000)
+		n = scan.nextInt();//チーズ工場の数(1 <= n <= 9)
+		char map[][] = new char[h][w];
+		int x,y;
+		for(int i = 0;i < h;i++){
+			String rows = scan.next();
+			for(int j = 0;j < w;j++){
+				map[i][j] = rows.charAt(j);
+				if(map[i][j] == START){
+					map[i][j] = SPACE;
+					y = i;
+					x = j;
+				}
+			}
+		}
+
+
+	}
+
+	int eat(){
+
+		return 0;
+	}
+
+	public static void main(String args[]){
+		new Main().run();
+	}
+}
+
+/*
+巣:S
+障害物:X
+空き地:.
+チーズ工場:1,2,3,...,9
+*/

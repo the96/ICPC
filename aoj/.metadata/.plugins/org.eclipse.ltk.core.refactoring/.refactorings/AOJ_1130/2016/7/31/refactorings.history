@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="&apos;Main.cntTile(...)&apos; のローカル変数の名前を &apos;panel&apos; から &apos;tile&apos; に変更します&#x0D;&#x0A;- 元のプロジェクト: &apos;AOJ_1130&apos;&#x0D;&#x0A;- オリジナル要素: &apos;Main.cntTile(char[][], int, int).panel&apos;&#x0D;&#x0A;- 名前変更済み要素: &apos;panel&apos;&#x0D;&#x0A;- リファクタリングされた要素の参照を更新" description="ローカル変数名 &apos;panel&apos; の変更" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Main.java[Main~cntTile~\[\[C~I~I@panel!667!680!676!680!\[\[C!0!true" name="tile" references="true" stamp="1469416708204" version="1.0"/>
+</session>
